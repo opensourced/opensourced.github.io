@@ -6,7 +6,7 @@
 a,
 a:focus,
 a:hover {
-  color: #fff;
+  color: #e1f0f6;
 }
 
 /* Custom default button */
@@ -15,8 +15,8 @@ a:hover {
 .btn-secondary:focus {
   color: #333;
   text-shadow: none; /* Prevent inheritance from `body` */
-  background-color: #fff;
-  border: .05rem solid #fff;
+  background-color: #e1f0f6;
+  border: .05rem solid #e1f0f6;
 }
 
 
@@ -27,7 +27,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
+  background-color: #335281;
 }
 
 body {
@@ -72,8 +72,8 @@ body {
 }
 
 .nav-masthead .active {
-  color: #fff;
-  border-bottom-color: #fff;
+  color: #e1f0f6;
+  border-bottom-color: #e1f0f6;
 }
 
 @media (min-width: 48em) {
