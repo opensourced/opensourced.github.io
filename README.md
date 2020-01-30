@@ -2,4 +2,4 @@
 
 # OpensourcEd 
 
-An group committed to promoting the values and use of open source software in higher education.
+A group committed to promoting the values and use of open source software in higher education.
