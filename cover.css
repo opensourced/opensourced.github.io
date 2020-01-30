@@ -2,23 +2,35 @@
  * Globals
  */
 
+/* Font */
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,400i,700,700i&display=swap');
+
 /* Links */
 a,
 a:focus,
 a:hover {
-  color: #e1f0f6;
+  font-weight: 700;
 }
 
 /* Custom default button */
-.btn-secondary,
-.btn-secondary:hover,
-.btn-secondary:focus {
-  color: #333;
-  text-shadow: none; /* Prevent inheritance from `body` */
-  background-color: #e1f0f6;
-  border: .05rem solid #e1f0f6;
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:focus {
+  color: rgb(255, 255, 255);
+  background-color: #345281;
+  border: .05rem solid #345281;
 }
 
+/* Form Updates */
+.form-inline{
+  justify-content: center;
+}
+
+/* Heading Updates */
+h2{ 
+  font-weight: 700;
+  margin-bottom: .5em;
+}
 
 /*
  * Base structure
@@ -27,62 +39,22 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #335281;
+  background-color: #e1f1f7;
+  font-family: 'Ubuntu', sans-serif;
+
+}
+strong{
+  font-weight: 700;
 }
 
 body {
   display: -ms-flexbox;
   display: flex;
-  color: #fff;
-  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+  color: #345281;
 }
 
 .cover-container {
   max-width: 42em;
-}
-
-
-/*
- * Header
- */
-.masthead {
-  margin-bottom: 2rem;
-}
-
-.masthead-brand {
-  margin-bottom: 0;
-}
-
-.nav-masthead .nav-link {
-  padding: .25rem 0;
-  font-weight: 700;
-  color: rgba(255, 255, 255, .5);
-  background-color: transparent;
-  border-bottom: .25rem solid transparent;
-}
-
-.nav-masthead .nav-link:hover,
-.nav-masthead .nav-link:focus {
-  border-bottom-color: rgba(255, 255, 255, .25);
-}
-
-.nav-masthead .nav-link + .nav-link {
-  margin-left: 1rem;
-}
-
-.nav-masthead .active {
-  color: #e1f0f6;
-  border-bottom-color: #e1f0f6;
-}
-
-@media (min-width: 48em) {
-  .masthead-brand {
-    float: left;
-  }
-  .nav-masthead {
-    float: right;
-  }
 }
 
 
@@ -93,14 +65,10 @@ body {
   padding: 0 1.5rem;
 }
 .cover .btn-lg {
-  padding: .75rem 1.25rem;
-  font-weight: 700;
+  margin-left: .5em;
 }
-
-
-/*
- * Footer
- */
-.mastfoot {
-  color: rgba(255, 255, 255, .5);
+.logo{
+  max-width: 320px;
+  height: auto;
+  margin: 0 20px 2em 20px;
 }
